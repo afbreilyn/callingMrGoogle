@@ -1,0 +1,101 @@
+/* --- clear all defaults --- */
+
+body, form, div, label, input,
+button, section, article {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+input[type="text"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  box-sizing: content-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  width: auto;
+  background: transparent;
+  color: inherit;
+}
+
+input[type="submit"] {
+  display: inline;
+  cursor: pointer;
+}
+
+/* --- body --- */
+
+body {
+	background: #ddd;
+	font-family: sans-serif;
+  padding: 50px;
+}
+
+/* --- form --- */
+
+form {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 15px;
+
+  background: #fff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.input {
+  margin: 15px 0;
+}
+
+.input > input {
+  border: 2px solid #000;
+  padding: 5px;
+  width: 284px;
+  border-radius: 5px;
+}
+
+.input > input:focus {
+  border-color: #0c0;
+}
+
+.submit > input {
+  position: relative;
+  display: inline-block;
+  background: #0c0;
+  color: #fff;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 0 0 #070;
+}
+
+.submit > input:hover {
+  background: #0b0;
+}
+
+.submit > input:active {
+  top: 3px;
+  box-shadow: none;
+  background: #0a0;
+}
+
+/* --- article --- */
+
+article {
+  min-height: 150px;
+  background: #fff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+
